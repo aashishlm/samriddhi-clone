@@ -7,9 +7,16 @@
     text-decoration: none;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
 
 header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -18,6 +25,11 @@ header{
     padding: 0px 7%;
     display: flex;
     justify-content: flex-start;
+    z-index: 1000;
+}
+.nav{
+    height: 8em;
+    width: 100%;
 }
 .navbar{
     margin-top: 1em;
@@ -30,25 +42,29 @@ header .logo{
 }
 header .navbar ul {
     list-style: none;
+    list-style-type: none;
 }
 header .navbar ul li{
     position: relative;
+    list-style-type: none;
     text-decoration: none;
     float:left;
 }
 header .navbar ul li a {
     font-size: 15px;
+    list-style-type: none;
     padding: 20px;
     color: #333;
     display: inline;
 }
 header .navbar ul li a:hover {
-    
+    list-style-type: none;
     text-decoration: none;
     color:orange
 }
 header .navbar ul li ul {
     position: absolute;
+    list-style-type: none;
     left: 0;
     top: 30px;
     width: 250px;
@@ -79,14 +95,87 @@ header label {
     display: none;
 }
 
-
-
-
 .logombl{
     display: none;
 }
+.carousel{
+    /* margin-top: 120px; */
+    height: 35em;
+    width: 100%;
+    
+    
+}
+.notice{
+    height: 45em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-style: groove;
+    
+}
+.col1{
+    height: 45em;
+    width: 25em;
+    border-style: groove;
 
+}
+.col2{
+    height: 45em;
+    width: 25em;
+    border-style: groove;
 
+}
+.col3{
+    height: 45em;
+    width: 25em;
+    border-style: groove;
+    
+}
+.higherquality{
+    height: 15em;
+    width: 100%;
+    border-style: groove;
+}
+.ourprogrammes{
+    height: 55em;
+    width: 100%;
+    border-style: groove;
+}
+.studentclubs{
+    height: 45em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-style: groove;
+}
+.scol1{
+    height: 45em;
+    width: 36em;
+    border-style: groove;
+
+}
+.scol2{
+    height: 45em;
+    width: 36em;
+    border-style: groove;
+
+}
+.newsupdates{
+    height: 35em;
+    width: 100%;
+    border-style: groove;
+}
+.studenttestimonials{
+    height: 35em;
+    width: 100%;
+    border-style: groove;
+
+}
+.footer{
+    height: 45em;
+    width: 100%;
+    border-style: groove;
+}
 
 
 
