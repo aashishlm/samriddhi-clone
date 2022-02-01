@@ -13,15 +13,23 @@
     justify-content: center;
     
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
 
 
 header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background: #EBF7F8;
-    box-shadow: 0 5px 10px #EBF7F8 ;
+    box-shadow: 0 5px 10px #a2abaf ;
     padding: 0px 7%;
     display: flex;
     justify-content: flex-start;
@@ -74,7 +82,7 @@ header .navbar ul li ul {
 }
 header .navbar ul li ul li {
     width: 100%;
-    border-top: 1px solid black;
+    border-top: 1px solid white;
 }
 header .navbar ul li ul li ul {
     left: 200px;
@@ -232,10 +240,22 @@ header label {
 
 
 @media(max-width:991px){
+    body {
+        overflow-x: hidden; 
+    }
     .logombl{
         display: initial;
     }
-    
+    .notice{
+        display: flex;
+        flex-direction: column;
+    }
+    .higherquality{
+        margin-top: 30em;
+        width: 50em;
+        height: 20em;
+        
+    }
      .logo {
         display: none;
     }
