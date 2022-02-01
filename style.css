@@ -100,41 +100,81 @@ header label {
 }
 .carousel{
     /* margin-top: 120px; */
-    height: 35em;
+    height: 40em;
     width: 100%;
+    background-color: #F5F5F5;
     
     
 }
 .notice{
     height: 45em;
     width: 100%;
+    background-color: #F5F5F5;
     display: flex;
     justify-content: center;
-    border-style: groove;
     
 }
 .col1{
     height: 45em;
     width: 25em;
-    border-style: groove;
+    color: #005695;
+    
+    
 
 }
 .col2{
     height: 45em;
     width: 25em;
-    border-style: groove;
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    color:#005695;
 
 }
 .col3{
+    color: #005695;
     height: 45em;
     width: 25em;
-    border-style: groove;
-    
+    padding: 1em;
 }
+.img1 {
+    height: 20em;
+    width: 24em;
+    border-radius: 1em 1em;
+}
+
+
+.chairman {
+    color: rgb(8, 18, 117);
+}
+
 .higherquality{
     height: 15em;
     width: 100%;
-    border-style: groove;
+    background-image: url('sky.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15em;
+    padding-top: 3em;
+    color: white;
+}
+
+.rmbtn{
+    border: 2px solid black;
+    border-color: white;
+    background-color: #3486C0;
+    color: white;
+    text-decoration-color: white;
+    margin-top: 2.5em;
+    padding: 15px 32px;
+}
+.rmbtn:hover{
+    cursor: pointer;
+    border-color:black;
+    background-color: #3486C0;
+    color:orange;
+
 }
 .ourprogrammes{
     height: 55em;
@@ -175,6 +215,18 @@ header label {
     height: 45em;
     width: 100%;
     border-style: groove;
+}
+.sexp{
+    display: flex;
+    gap: 0.3em;
+}
+.cb{
+    margin-top: 0.5em;
+
+}
+.bi{
+    color: orange;
+    width: 2.2em;
 }
 
 
