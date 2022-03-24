@@ -236,7 +236,44 @@ header label {
     color: orange;
     width: 2.2em;
 }
+.ourprogrammes{
+    margin-top: 2rem ;
+}
+.ourprog{
+    text-align: center;
+    color:#005695;
 
+}
+.ourprog1{
+    text-align: center;
+    color:#A0A0A0;
+    font-size: larger;
+    
+}
+.programmes{
+    height: 45em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-style: groove;
+
+}
+.ourprogramcol{
+    height: 60em;
+    width: 36em;
+    border-style: groove;
+    
+}
+.ourprogramcol2{
+    height: 60em;
+    width: 36em;
+    border-style: groove;
+    
+}
+.pg1{
+    font-size:xx-large;
+    color: #005695;
+}
 
 
 @media(max-width:991px){
